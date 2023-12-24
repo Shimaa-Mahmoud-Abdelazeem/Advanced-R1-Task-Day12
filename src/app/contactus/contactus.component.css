@@ -1,0 +1,13 @@
+.card {
+
+  border: 1px solid rgb(177, 166, 166);
+padding-top: 0 !important;
+   }
+     .card-header {
+    background-color: rgb(20, 133, 238);
+     color: white;
+  }
+    .input {
+     font-family: FontAwesome, "Open Sans", Verdana, sans-serif;
+     margin-bottom: 20px !important;
+    }

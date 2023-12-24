@@ -1,0 +1,85 @@
+<!--========== SCROLL TOP ==========-->
+<a href="#" class="scrolltop" id="scroll-top">
+  <i class='bx bx-chevron-up scrolltop__icon'></i>
+</a>
+
+<!--========== HEADER ==========-->
+<header class="l-header" id="header">
+  <nav class="nav bd-container">
+      <a href="#" class="nav__logo">Tasty</a>
+
+      <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+              <li class="nav__item" ><a href="#home" class="nav__link " [routerLink]="['/home']" routerLinkActive="active-link">Home</a></li>
+              <li class="nav__item"><a href="#about" class="nav__link" [routerLink]="['/about']" routerLinkActive="active-link">About</a></li>
+              <li class="nav__item"><a href="#services" class="nav__link" [routerLink]="['/services']"routerLinkActive="active-link">Services</a></li>
+              <li class="nav__item"><a href="#menu" class="nav__link" [routerLink]="['/menu']"routerLinkActive="active-link">Menu</a></li>
+              <li class="nav__item"><a href="#contact" class="nav__link" [routerLink]="['/contact']"routerLinkActive="active-link">Contact us</a></li>
+
+              <li><i class='bx bx-moon change-theme' id="theme-button"></i></li>
+          </ul>
+      </div>
+
+      <div class="nav__toggle" id="nav-toggle">
+          <i class='bx bx-menu'></i>
+      </div>
+  </nav>
+</header>
+
+
+
+<!-- <app-home></app-home>
+<app-about></app-about>
+<app-services></app-services>
+<app-menu></app-menu>
+<app-contactus></app-contactus> -->
+
+<router-outlet></router-outlet>
+
+
+<!--========== FOOTER ==========-->
+<footer class="footer section bd-container">
+  <div class="footer__container bd-grid">
+      <div class="footer__content">
+          <a href="#" class="footer__logo">Tasty Food</a>
+          <span class="footer__description">Restaurant</span>
+          <div>
+              <a href="#" class="footer__social"><i class='bx bxl-facebook'></i></a>
+              <a href="#" class="footer__social"><i class='bx bxl-instagram'></i></a>
+              <a href="#" class="footer__social"><i class='bx bxl-twitter'></i></a>
+          </div>
+      </div>
+
+      <div class="footer__content">
+          <h3 class="footer__title">Services</h3>
+          <ul>
+              <li><a href="#" class="footer__link">Delivery</a></li>
+              <li><a href="#" class="footer__link">Pricing</a></li>
+              <li><a href="#" class="footer__link">Fast food</a></li>
+              <li><a href="#" class="footer__link">Reserve your spot</a></li>
+          </ul>
+      </div>
+
+      <div class="footer__content">
+          <h3 class="footer__title">Information</h3>
+          <ul>
+              <li><a href="#" class="footer__link">Event</a></li>
+              <li><a href="#" class="footer__link">Contact us</a></li>
+              <li><a href="#" class="footer__link">Privacy policy</a></li>
+              <li><a href="#" class="footer__link">Terms of services</a></li>
+          </ul>
+      </div>
+
+      <div class="footer__content">
+          <h3 class="footer__title">Adress</h3>
+          <ul>
+              <li>Lima - Peru</li>
+              <li>Jr Union #999</li>
+              <li>999 - 888 - 777</li>
+              <li>tastyfood@email.com</li>
+          </ul>
+      </div>
+  </div>
+
+  <p class="footer__copy">&#169; 2020 Bedimcode. All right reserved</p>
+</footer>
